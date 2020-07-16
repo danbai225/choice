@@ -24,11 +24,11 @@ public class Choice {
      */
     private boolean expression;
 
-    Choice() {
+    public Choice() {
         map = new ConcurrentHashMap<>();
     }
 
-    Choice(boolean expression) {
+    public Choice(boolean expression) {
         this();
         this.expression = expression;
     }

@@ -1,7 +1,9 @@
-package cn.p00q.choice;
+package cn.p00q.choice.test;
+
+import cn.p00q.choice.Choice;
 
 /**
- * @program: swich
+ * @program: choice
  * @description: 测试
  * @author: DanBai
  * @create: 2020-07-16 16:05
@@ -10,11 +12,8 @@ public class Test {
     enum Color {
         RED, GREEN, BLUE;
     }
-
     public static void main(String[] args) {
         int a = 1, b = 2, c = 3, d = 4;
-        int y;
-        y = a < b ? c : d > a ? b : c;
         new Choice(true).add(1L, () -> {
             System.out.println("这里是1");
         }).add(a < b ? c : d > a ? b : c, () -> {
