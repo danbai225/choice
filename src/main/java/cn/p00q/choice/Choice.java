@@ -25,7 +25,7 @@ public class Choice {
     private boolean expression;
 
     public Choice() {
-        map = new ConcurrentHashMap<>();
+        map = new ConcurrentHashMap();
     }
 
     public Choice(boolean expression) {
