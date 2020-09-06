@@ -2,6 +2,15 @@
 
 一个类似switch的选择器。支持表达式和多选择。
 
+# 依赖
+```
+<dependency>
+    <groupId>cn.p00q.choice</groupId>
+    <artifactId>choice</artifactId>
+    <version>1.0</version>
+</dependency>
+
+```
 # 用法
 
 ```
